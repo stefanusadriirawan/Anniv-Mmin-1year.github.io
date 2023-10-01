@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anniversary Slideshow</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="fade-out-image"> 
+        <div class="slideshow-container">
+            <div class="slide fade">
+                <img src="aniv1.png" alt="Description of the image 1" class="center-image">
+            </div>
+            <div class="slide fade">
+                <img src="aniv2.png" alt="Description of the image 2" class="center-image">
+            </div>
+            <div class="slide fade">
+                <img src="aniv3.png" alt="Description of the image 3" class="center-image">
+            </div>
+            <div class="slide fade">
+                <img src="aniv4.png" alt="Description of the image 3" class="center-image">
+            </div>
+            <div class="slide fade">
+                <img src="aniv5.png" alt="Description of the image 3" class="center-image">
+            </div>
+            <div class="slide fade">
+                <img src="aniv6.png" alt="Description of the image 3" class="center-image">
+            </div>
+            <div class="slide fade">
+                <img src="aniv7.png" alt="Description of the image 3" class="center-image">
+            </div>
+            <div class="slide fade">
+                <img src="aniv8.png" alt="Description of the image 3" class="center-image">
+            </div>
+            <div class="slide fade">
+                <img src="aniv9.png" alt="Description of the image 3" class="center-image">
+            </div>
+            <div class="slide fade">
+                <img src="aniv10.png" alt="Description of the image 3" class="center-image">
+            </div>
+            <div class="slide fade">
+                <img src="aniv11.png" alt="Description of the image 3" class="center-image">
+            </div>
+            <div class="slide fade">
+                <img src="aniv12.png" alt="Description of the image 3" class="center-image">
+            </div>
+            <div class="slide fade">
+                <img src="aniv13.png" alt="Description of the image 3" class="center-image">
+            </div>
+            <div class="slide fade">
+                <img src="aniv14.png" alt="Description of the image 3" class="center-image">
+            </div>
+            <div class="slide fade">
+                <img src="aniv15.png" alt="Description of the image 3" class="center-image">
+            </div>
+        </div>
+    </div>
+
+    <div class="overlay">
+        <video src="sakura2.mov" autoplay loop muted></video>
+    </div>
+
+    <div class="controls">
+        <button id="prevBtn" onclick="plusSlides(-1)"><</button>
+        <button id="nextBtn " onclick="plusSlides(1)">></button>
+        <button id="audioBtn" onclick="toggleAudio()">Audio</button>
+    </div>
+
+    <audio id="audio" src="music_aniv_edited3.mp3" loop></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
